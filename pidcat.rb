@@ -2,9 +2,9 @@ require 'formula'
 
 class Pidcat < Formula
 	homepage 'https://github.com/JakeWharton/pidcat'
-	url 'https://raw.github.com/JakeWharton/pidcat/7330fc44ca83511c42402e61401659c2a4f2d371/pidcat.py'
-	sha1 '7515bbd957f0d5ea68b87ca5005480848bedb0e0'
-	version "7330fc44ca83511c42402e61401659c2a4f2d371"
+	url 'https://raw.github.com/JakeWharton/pidcat/f624fe4b224f65379fee317c6ee92af0e3447d12/pidcat.py'
+	sha1 'c38bcca0b4228b787e646b1c80a486d0329e0a76'
+	version "f624fe4b224f65379fee317c6ee92af0e3447d12"
 
 	def install
 		File.rename("pidcat.py", "pidcat")
