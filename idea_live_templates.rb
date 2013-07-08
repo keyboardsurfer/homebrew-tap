@@ -7,7 +7,7 @@ class IdeaLiveTemplates < Formula
   version 'b1ba04a65ce1b322eb98f62b8970f532d2dc57e6'
 
   def install
-    FileUtils.mv('Android.xml', '~/Library/Preferences/IntelliJIdea12/templates')
+    FileUtils.mv('Android.xml', '~/Library/Preferences/IntelliJIdea12/templates/Android.xml')
   end
 
 end
